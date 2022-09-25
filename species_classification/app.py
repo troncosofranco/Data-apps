@@ -60,7 +60,7 @@ input_df = pd.DataFrame(input_features, index=[0])
 #encoding categorical features of the input
 # Combines user input features with entire penguins dataset
 # This will be useful for the encoding phase
-penguins_raw = pd.read_csv('penguins.csv')
+penguins_raw = pd.read_csv('https://github.com/troncosofranco/Data-apps/blob/main/species_classification/penguins.csv')
 penguins = penguins_raw.drop(columns=['species'])
 df = pd.concat([input_df,penguins],axis=0)
 
