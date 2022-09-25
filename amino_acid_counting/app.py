@@ -15,7 +15,7 @@ This app counts the amino acids composition of query protein chain!
 """)
 
 #head Image
-image = Image.open("https://github.com/troncosofranco/Data-apps/blob/main/amino_acid_counting/amino_acids.png")
+image = Image.open("https://raw.githubusercontent.com/troncosofranco/Data-apps/main/amino_acid_counting/amino_acids.png")
 
 st.image(image, use_column_width=True)
 
