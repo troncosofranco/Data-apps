@@ -16,8 +16,8 @@ This app predicts the Boston house price!
 """)
 st.write('------------')
 
-housing_logo = Image.open("housing_logo.png")
-st.image(housing_logo, use_column_width=True)
+image_url = "https://github.com/troncosofranco/Data-apps/blob/main/housing/housing_logo.png?raw=true"
+st.image(image_url, use_column_width=True)
 
 # Load the Boston House Price Dataset
 raw_data = datasets.load_boston()
