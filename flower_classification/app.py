@@ -12,8 +12,8 @@ st.title("Iris Flower Prediction")
 #head
 st.write("This apps predicts the Iris Flower type using ML classification algorithm")
 
-reference_image = Image.open("references.jpg")
-st.image(reference_image, use_column_width=False)
+url_reference = "https://github.com/troncosofranco/Data-apps/blob/main/flower_classification/references.jpg?raw=true"
+st.image(url_reference, use_column_width=False)
 
 
 #Sidebar - header
@@ -64,11 +64,11 @@ st.subheader(target_name_prediction[0])
 
 flower_type = str(target_name_prediction[0])
 if flower_type == "setosa":
-    image_type = Image.open("iris_setosa.jpg")
+    image_type_url = "https://github.com/troncosofranco/Data-apps/blob/main/flower_classification/iris_setosa.jpg?raw=true"
 elif flower_type == "virginica": 
-    image_type = Image.open("iris_virginica.jpg")
+    image_type_url = "https://github.com/troncosofranco/Data-apps/blob/main/flower_classification/iris_virginica.jpg?raw=true"
 else:
-    image_type = Image.open("iris_versicolor.jpg")
+    image_type_url = "https://github.com/troncosofranco/Data-apps/blob/main/flower_classification/iris_versicolor.jpg?raw=true"
     
 
 st.image(image_type, use_column_width=False)
@@ -93,6 +93,6 @@ st.pyplot()
 
 st.markdown("""
 Credits:
-* **Images:** [Unplash] (https://unsplash.com/es/s/fotos/iris-flower) and [google] (https://www.google.com)
+* **Images:** [Unplash](https://unsplash.com/es/s/fotos/iris-flower) and [google] (https://www.google.com)
 * **Code contribution:** [Dataprofessor](https://github.com/dataprofessor)
 """)
