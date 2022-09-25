@@ -17,7 +17,7 @@ This app counts the amino acids composition of query protein chain!
 #head Image
 url_image = "https://i0.wp.com/www.compoundchem.com/wp-content/uploads/2014/09/20-Common-Amino-Acids-v3.png?resize=1024%2C724&ssl=1"
 
-st.image(ulr_image, caption='Amino acids', use_column_width=True)
+st.image(url_image, caption='Amino acids', use_column_width=True)
 
 ######################
 # Input Text Box
