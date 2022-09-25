@@ -12,8 +12,8 @@ from PIL import Image
 st.title("Classification Penguins app")
 st.write("This apps predicts the Penguin specie using ML classification algorithm")
 
-penguin_logo = Image.open("penguins_logo.png")
-st.image(penguin_logo, use_column_width=False)
+penguin_logo_url = "https://github.com/troncosofranco/Data-apps/blob/main/penguins_classification/penguins_logo.png?raw=true"
+st.image(penguin_logo_url, use_column_width=False)
 
 #Load data
 data = pd.read_csv('penguins.csv')
@@ -146,14 +146,14 @@ st.write("The penguin is a ", penguins_species[prediction[0]], " specie.")
 penguin_type = str(penguins_species[prediction[0]])
 
 if penguin_type == "Adelie":
-    image_type = Image.open("adelie.jpg")
+    image_type_url = "https://github.com/troncosofranco/Data-apps/blob/main/penguins_classification/adelie.jpg?raw=true"
 elif penguin_type == "Chinstrap": 
-    image_type = Image.open("chinstrap.jpg")
+    image_type_url = "https://github.com/troncosofranco/Data-apps/blob/main/penguins_classification/chinstrap.jpg?raw=true"
 else:
-    image_type = Image.open("gentoo.jpg")
+    image_type_url = "https://github.com/troncosofranco/Data-apps/blob/main/penguins_classification/gentoo.jpg?raw=true"
     
 
-st.image(image_type, use_column_width=False)
+st.image(image_type_url, use_column_width=False)
 
 
 st.subheader("Prediction probability:")
@@ -173,9 +173,9 @@ st.pyplot(fig)
 
 st.markdown("""
 Credits:
-* **Images:** [Google] (https://www.google.com)
+* **Images:** [Google](https://www.google.com)
 * **Data Provided by:** [Dataprofessor](https://github.com/dataprofessor/streamlit_freecodecamp/tree/main/app_8_classification_penguins)
 * **Code contribution:**
-* [Dataprofessor] (https://github.com/dataprofessor/streamlit_freecodecamp/blob/main/app_8_classification_penguins/penguins-app.py)
-* [Pratik Mukherjee] (https://www.kaggle.com/code/pratik1120/penguin-dataset-eda-classification-and-clustering/notebook)
+* [Dataprofessor](https://github.com/dataprofessor/streamlit_freecodecamp/blob/main/app_8_classification_penguins/penguins-app.py)
+* [Pratik Mukherjee](https://www.kaggle.com/code/pratik1120/penguin-dataset-eda-classification-and-clustering/notebook)
 """)
