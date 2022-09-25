@@ -12,8 +12,8 @@ from PIL import Image
 st.title("Classification Penguins app")
 st.write("This apps predicts the Penguin specie using ML classification algorithm")
 
-penguin_logo = Image.open("penguins_logo.png")
-st.image(penguin_logo, use_column_width=False)
+penguin_logo_url = "https://github.com/troncosofranco/Data-apps/blob/main/species_classification/penguins_logo.png?raw=true"
+st.image(penguin_logo_url, use_column_width=False)
 
 #Load data
 data = pd.read_csv('penguins.csv')
@@ -173,7 +173,6 @@ st.pyplot(fig)
 
 st.markdown("""
 Credits:
-* **Images:** [Google] (https://www.google.com)
 * **Data Provided by:** [Dataprofessor](https://github.com/dataprofessor/streamlit_freecodecamp/tree/main/app_8_classification_penguins)
 * **Code contribution:**
 * [Dataprofessor] (https://github.com/dataprofessor/streamlit_freecodecamp/blob/main/app_8_classification_penguins/penguins-app.py)
