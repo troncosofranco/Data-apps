@@ -71,7 +71,7 @@ else:
     image_type_url = "https://github.com/troncosofranco/Data-apps/blob/main/flower_classification/iris_versicolor.jpg?raw=true"
     
 
-st.image(image_type, use_column_width=False)
+st.image(image_type_url, use_column_width=False)
 
 
 
