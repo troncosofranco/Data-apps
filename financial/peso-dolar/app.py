@@ -10,8 +10,8 @@ from prophet.plot import plot_plotly
 
 #Head
 st.title('Dólar futuro (U$d)')
-image = Image.open("logo_dólar.jpg")
-st.image(image, use_column_width=True)
+image_url = "https://github.com/troncosofranco/Data-apps/blob/main/financial/peso-dolar/logo_d%C3%B3lar.jpg?raw=true"
+st.image(image_url, use_column_width=True)
 #Data updated to 21/7/2022 from https://www.ambito.com/contenidos/
 
 
