@@ -10,8 +10,8 @@ from PIL import Image
 st.title('NFL Football: Rushing Stats Analysis')
 
 #head image
-image = Image.open("C:\\Users\\tronc\\Desktop\\Python\\data_science\\apps\\EDA_football\\NFL.jpg")
-st.image(image, use_column_width=True)
+image_url = "https://github.com/troncosofranco/Data-apps/blob/main/football/NFL.jpg?raw=true"
+st.image(image_url, use_column_width=True)
 
 
 
