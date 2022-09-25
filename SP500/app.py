@@ -124,7 +124,6 @@ if st.button('BoxPlot'):
 st.write("---")
 st.markdown("""
 Credits:
-* **Image:** [Freepik] (https://www.freepik.es/foto-gratis/tableta-capital-rascacielos-pantalla-intercambio_1088871.htm#query=wall%20street&position=0&from_view=search)
 * **Data source:** [pro-football-reference.com](https://www.pro-football-reference.com/).
 * **Code Reference:** [Dataprofessor](https://github.com/dataprofessor/streamlit_freecodecamp/tree/main/app_5_eda_sp500_stock)
 """)
