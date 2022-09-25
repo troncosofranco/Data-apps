@@ -10,8 +10,8 @@ import yfinance as yf
 from PIL import Image
 
 #Head
-image = Image.open("logo.jpg")
-st.image(image, use_column_width=True)
+image_url = "https://github.com/troncosofranco/Data-apps/blob/main/SP500/logo.jpg?raw=true"
+st.image(image_url, use_column_width=True)
 
 st.write('The S&P 500 is a stock index that tracks the performance of about 500 of the largest publicly listed U.S. companies, as measured by market capitalization. Because of its broad diversification, the S&P 500 is a standard performance benchmark for many stocks, mutual funds and ETFs, especially in the large-cap space')
 
