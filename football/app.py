@@ -123,7 +123,7 @@ References:
 st.write("---")
 st.markdown("""
 Credits:
-* **Image:** [Freepik] (https://www.freepik.es/fotos-premium/silueta-jugador-futbol-americano-llamas_10938203.htm#query=NFL%20on%20fire&position=23&from_view=search)
+* **Image:** [Freepik](https://www.freepik.es/fotos-premium/silueta-jugador-futbol-americano-llamas_10938203.htm#query=NFL%20on%20fire&position=23&from_view=search)
 * **Data source:** [pro-football-reference.com](https://www.pro-football-reference.com/).
 * **Code contribution:** [Dataprofessor](https://github.com/dataprofessor/streamlit_freecodecamp/tree/main/app_4_eda_football)
 """)
