@@ -93,6 +93,6 @@ st.pyplot()
 
 st.markdown("""
 Credits:
-* **Images:** [Unplash](https://unsplash.com/es/s/fotos/iris-flower) and [google] (https://www.google.com)
+* **Images:** [Unplash](https://unsplash.com/es/s/fotos/iris-flower) and [google](https://www.google.com)
 * **Code contribution:** [Dataprofessor](https://github.com/dataprofessor)
 """)
