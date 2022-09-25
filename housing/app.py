@@ -177,7 +177,5 @@ if st.button('Shap bar'):
 st.markdown("""
 Credits:
 * **Images:** [Freepik] (https://www.freepik.com)
-* **Crecits:** [Dataprofessor] (https://github.com/dataprofessor/streamlit_freecodecamp/tree/main/app_9_regression_boston_housing), 
-[Sainithish] (https://www.kaggle.com/code/sainithish1212/top10-rank-with-very-good-score),
-[Sharp Tutorial] (https://towardsdatascience.com/using-shap-values-to-explain-how-your-machine-learning-model-works-732b3f40e137) by Vinicius Trevisan
+* **Credits:** [Dataprofessor] (https://github.com/dataprofessor/streamlit_freecodecamp/tree/main/app_9_regression_boston_housing), 
 """)
