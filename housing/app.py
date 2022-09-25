@@ -174,8 +174,4 @@ if st.button('Shap values'):
 if st.button('Shap bar'):
     plot_shap_bar()
 
-st.markdown("""
-Credits:
-* **Images:** [Freepik] (https://www.freepik.com)
-* **Credits:** [Dataprofessor] (https://github.com/dataprofessor/streamlit_freecodecamp/tree/main/app_9_regression_boston_housing), 
-""")
+
