@@ -16,7 +16,7 @@ penguin_logo_url = "https://github.com/troncosofranco/Data-apps/blob/main/pengui
 st.image(penguin_logo_url, use_column_width=False)
 
 #Load data
-data = pd.read_csv('penguins.csv')
+data = pd.read_csv('https://github.com/troncosofranco/Data-apps/blob/main/penguins_classification/penguins.csv')
 
 #data claned provided by dataprofessor
 #https://github.com/dataprofessor/streamlit_freecodecamp/blob/main/app_8_classification_penguins/penguins_cleaned.csv
